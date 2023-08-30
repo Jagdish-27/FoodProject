@@ -1,0 +1,82 @@
+@import "../../../styles.scss";
+header {
+  position: relative;
+  padding: 0;
+  background: $color-orange;
+
+  .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+
+    .logo {
+      font-weight: bold;
+      padding: 1rem;
+      color: #fff;
+      font-size: 1.2rem;
+    }
+    .logo:hover {
+      color: #e7dddd;
+    }
+    ul {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      .active {
+        color: #e7dddd;
+      }
+      li a {
+        color: #fff;
+      }
+      li a:hover {
+        color: #e7dddd;
+      }
+
+      .menu_container {
+        position: relative;
+
+        .menu {
+          position: absolute;
+          z-index: 1;
+          // background: whitesmoke;
+          background-color: $color-orange;
+
+          display: none;
+
+          a {
+            width: 100%;
+            min-width: 5rem;
+            color: #fff;
+          }
+          a:hover {
+            color: #e7dddd;
+          }
+        }
+      }
+      .menu_container:hover {
+        .menu {
+          display: block;
+          z-index: 10;
+        }
+      }
+
+      a {
+        padding: 1rem;
+        display: inline-block;
+        // color: #fff;
+        font-size: 1.2rem;
+
+        span {
+          background: #ff4d4d;
+          //   color: #fff;
+          padding: 0.1rem 0.45rem;
+          border-radius: 100%;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}

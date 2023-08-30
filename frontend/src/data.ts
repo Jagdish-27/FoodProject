@@ -1,0 +1,82 @@
+import { Food } from "./app/shared/models/food";
+import { Tag } from "./app/shared/models/tag";
+
+export const sample_foods:Food[]  =[
+    {
+        id:'1',
+        name:'Vegetables Pizza',
+        price:9,
+        cookTime:'40-45',
+        favorite:false,
+        origins:['italy'],
+        stars:4.0,
+        imageUrl:'assets/icons/meatball.jpg',
+        tags:['FastFood','Pizza','Lunch'],
+    },
+    {
+        id:'2',
+        name:'Pizza Pepperoni',
+        price:9,
+        cookTime:'15-25',
+        favorite:false,
+        origins:['italy','asian'],
+        stars:3.0,
+        imageUrl:'assets/icons/Cheesy-Vegetable-Pizza.jpg',
+        tags:['FastFood','Pizza','Lunch'],
+    },
+    {
+        id:'3',
+        name:'SandWitch',
+        price:9,
+        cookTime:'15-20',
+        favorite:false,
+        origins:['italy','american'],
+        stars:4.0,
+        imageUrl:'assets/icons/meatball.jpg',
+        tags:['FastFood','Lunch'],
+    },
+    {
+        id:'4',
+        name:'Chicken Soup',
+        price:9,
+        cookTime:'20-30',
+        favorite:false,
+        origins:['Aus','new','Inida'],
+        stars:4.0,
+        imageUrl:'assets/icons/Cheesy-Vegetable-Pizza.jpg',
+        tags:['FastFood','Lunch'],
+    },
+    {
+        id:'5',
+        name:'MeatBall',
+        price:9,
+        cookTime:'10-20',
+        favorite:false,
+        origins:['Inida'],
+        stars:4.0,
+        imageUrl:'assets/icons/meatball.jpg',
+        tags:['FastFood','Lunch'],
+    },
+    {
+        id:'6',
+        name:'Chhole Bhature',
+        price:9,
+        cookTime:'25-35',
+        favorite:false,
+        origins:['Inida'],
+        stars:4.0,
+        imageUrl:'assets/icons/Cheesy-Vegetable-Pizza.jpg',
+        tags:['FastFood','Lunch'],
+    }
+];
+
+export const sample_tags:Tag[]=[
+    {name:'All',count:6},
+    {name:'FastFood',count:4},
+    {name:'Pizza',count:2},
+    {name:'Lunch',count:3},
+    {name:'SlowFood',count:2},
+    {name:'Hamburger',count:1},
+    {name:'Fry',count:1},
+    {name:'Soup',count:1},
+]
