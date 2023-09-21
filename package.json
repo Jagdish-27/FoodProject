@@ -8,7 +8,7 @@
   "main": "index.js",
   
   "scripts": {
-    "start": "cd backend && node server.js",
+    "start": "cd backend && node server.ts",
     "prebuild": "cd backend && npm run build",
     "build": "cd frontend && npm run build"
   },
