@@ -4,11 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-<<<<<<< HEAD
-    "build": "npm install --force && -g @angular/cli && ng build",
-=======
     "build": "npm install --force && npm install -g @angular/cli && ng build",
->>>>>>> 2ce67104bb9aa2869acd97e15d87827830c90215
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
