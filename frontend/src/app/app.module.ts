@@ -32,7 +32,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { StarRatingComponent } from './components/star-rating/star-rating.component';
 import { LayoutComponent } from './components/layout/layout.component';
 import { OrderPageComponent } from './components/pages/order-page/order-page.component';
-// import { RatingModule } from 'ng-starrating';
 
 @NgModule({
   declarations: [
@@ -68,7 +67,6 @@ import { OrderPageComponent } from './components/pages/order-page/order-page.com
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
-    // RatingModule
   ],
   providers: [
     {provide:HTTP_INTERCEPTORS,useClass:AuthInterceptor,multi:true},
